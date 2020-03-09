@@ -36,3 +36,23 @@
     width: 1210px;
     text-align: right;
 }
+
+#wrapperBox{
+    width: 600px;
+    height: 600px;
+    border: 4px dotted #08c;
+    margin: 10px;
+}
+
+.pixel{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+    background-color: olivedrab;
+    float: left;
+}
+
+.pixel:hover{
+    background-color: darkgreen;
+}
